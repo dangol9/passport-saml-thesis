@@ -2,16 +2,17 @@
   "name": "thesis",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Golubkov",
+  "license": "",
   "dependencies": {
     "express": "^5.1.0",
     "express-session": "^1.18.1",
+    "express-xss-sanitizer": "^2.0.0",
     "nodemon": "^3.1.9",
     "passport": "^0.7.0",
     "passport-saml": "^3.2.4"
